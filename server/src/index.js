@@ -1,13 +1,14 @@
 const express = require("express");
 
 //------------  Controllers ------------------- //
-
-//-------------- Models ---------------//
+const { login } = require("./controllers/auth.controller");
+const userController = require("./controllers/user.controller");
+const productController = require("./controllers/product.controller");
 
 const app = express();
-
 app.use(express.json());
 
-// app.use("" , controllers)
+app.use("/users", userController);
+app.use("/products", productController);
 
 module.exports = app;
