@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 // If you want to use your own Selectors look up the Advancaed Story book examples
 const ImageSlider = ({ slides }) => {
   return (
-    <Carousel infiniteLoop autoPlay showStatus>
+    <Carousel infiniteLoop autoPlay showStatus={false} interval={2000}>
       {slides.map((slide) => {
         return <Image src={slide.image} height="auto" width="800px" />;
       })}
