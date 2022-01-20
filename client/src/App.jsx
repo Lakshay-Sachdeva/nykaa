@@ -1,10 +1,7 @@
 import {Wrap,Button} from '@chakra-ui/react';
 import { Image } from '@chakra-ui/react';
 import './App.css';
-import {
-  ListItem,
-  UnorderedList,
-} from '@chakra-ui/react'
+
 function App() {
   return (
     <div className="App">
