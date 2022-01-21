@@ -14,30 +14,25 @@ function TopBrands(data) {
     console.log(data.data)
     const boxData = data.data;
 
-    function changeBackground(e) {
-        e.target.style.boxShadow = "0 10px 10px 0 #00000038";
-    }
-    function changeBackground2(e) {
-        e.target.style.boxShadow = "none";
-    }
-
     return (
          <div>
-            <Box mx="6%" my="20%" >
+            <Box mx="6%" >
                 <Grid templateColumns="repeat(2, 1fr)" gap={10} h='300px' w="98%">
                     {boxData.map((e) => (
                     <Box
+                        // ratio={16/9}
                         backgroundImage={`url(${e.link})`}
                         // backgroundPosition="fit"
                         backgroundRepeat="no-repeat"
-                        // backgroundSize="contain"
+                        backgroundSize="cover"
                         borderRadius="5px"
                         border='1px'
                         borderColor='gray.200'
                         boxShadow='base'
-                        onMouseEnter={changeBackground}
-                        onMouseLeave={changeBackground2}
-                    // bg="gray.200"
+                        _hover={{
+                            boxShadow: "0 20px 20px 0 #00000038"
+                          }}
+                        
                     >
                         <Box mt="41%" mx="2%" boxShadow='md' borderRadius="4px" align="center" h="20" bg="white" >
                             <Text align="center" color="#fc2779" fontSize='xl'>
