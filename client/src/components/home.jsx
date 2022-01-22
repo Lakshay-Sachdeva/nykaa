@@ -1,9 +1,10 @@
-import SimpleSlider from "./AutoCarousel.jsx"  
-
+import { Carousels } from "./carousel"
+import { SlideData } from "./sliderData1";
 export const Home=()=>{
-        return (
-                <>
-                <SimpleSlider/>
-                </>
-        )
-}
+     
+  return(
+          <>
+          <Carousels shows={SlideData}/>
+          </>
+  )
+  }
