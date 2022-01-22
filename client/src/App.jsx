@@ -15,7 +15,7 @@ class App extends React.Component{
           ],
     
         "content": "inclusive of all taxes",
-        "price": "MRP:₹398₹338 |15% Off!",
+        "price": "MRP:₹398 | ₹338 |15% Off!",
         "count": 1
       }
     ],
