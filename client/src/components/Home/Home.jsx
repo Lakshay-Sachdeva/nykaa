@@ -1,6 +1,6 @@
 import Navbar from "./NavBar";
 import { Carousels } from "../Carousels/carousel";
-import { SlideData } from "src/Asset/Images/sliderData1.jsx";
+import { SlideData } from "../../Asset/Images/sliderData1";
 
 export const Home = ({ show }) => {
   return (
