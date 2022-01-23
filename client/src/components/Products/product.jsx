@@ -1,8 +1,8 @@
 import React from "react";
-import "../App.css";
+import "../../App.css";
 import DetailsThumb from "./DetailsThumb";
 
-class Product extends React.Component {
+class ProductDetails extends React.Component {
   state = {
     products: [
       {
@@ -69,4 +69,4 @@ class Product extends React.Component {
   }
 }
 
-export default Product;
+export default ProductDetails;

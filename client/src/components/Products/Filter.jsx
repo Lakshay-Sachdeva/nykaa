@@ -78,6 +78,25 @@ function Filter() {
                             </Stack>
                         </AccordionPanel>
                     </AccordionItem>
+                    <AccordionItem>
+                        <h2>
+                            <AccordionButton>
+                                <Box flex='1' textAlign='left'>
+                                    Price
+                                </Box>
+                                <AccordionIcon />
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                            <Stack mt={1} spacing={1}>
+                                <Checkbox colorScheme='pink'>Rs. 0 - Rs. 499</Checkbox>
+                                <Checkbox colorScheme='pink'>Rs. 500 - Rs. 999</Checkbox>
+                                <Checkbox colorScheme='pink'>Rs. 1000 - Rs. 1999</Checkbox>
+                                <Checkbox colorScheme='pink'>Rs. 2000 - Rs. 3999</Checkbox>
+                                <Checkbox colorScheme='pink'>Rs. 4000 & Above</Checkbox>
+                            </Stack>
+                        </AccordionPanel>
+                    </AccordionItem>
                 </Accordion>
             </Box>
 

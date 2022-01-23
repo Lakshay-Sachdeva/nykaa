@@ -1,4 +1,4 @@
-import '../App.css';
+import '../../App.css';
 import { Input,Button } from '@chakra-ui/react'
 import {ListItem,Wrap,UnorderedList,Image} from '@chakra-ui/react'
 function Footer() {
