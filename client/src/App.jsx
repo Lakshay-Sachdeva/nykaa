@@ -1,19 +1,29 @@
+// import Product  from "./components/product";
 
-import Footer  from "./components/footer";
+// function App (){
+//   return (
+//     <>
+//     <Product />
+//     </>
+//   )
+// }
+// export default App
 
-function App(){
-  return(
-  <>
-  <Footer />
-  </>
+// import Footer  from "./components/footer";
 
-  );
-import Feature  from "./components/feature";
-function App() {
-  return (
-    <>
-    <Feature />
-    </>
-  )
-}
-export default App;
+// function App(){
+//   return(
+//   <>
+//   <Footer />
+//   </>
+
+//   );
+// import Feature  from "./components/feature";
+// function App() {
+//   return (
+//     <>
+//     <Feature />
+//     </>
+//   )
+// }
+// export default App;
