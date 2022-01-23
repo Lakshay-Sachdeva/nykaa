@@ -3,7 +3,7 @@ import { Address } from "../payment/address"
 import { Stack, HStack, VStack, } from '@chakra-ui/react'
 import { Head } from "../payment/banner"
 import {Amount} from "../payment/amount"
-export const Home = () => {
+export const Payment= () => {
         return (
                 <>
 
