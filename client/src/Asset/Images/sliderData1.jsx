@@ -1,0 +1,26 @@
+export const SlideData=   [
+        {
+          image:
+            "https://i.ibb.co/0CtVf94/slider1.jpg"
+        },
+        {
+          image:
+          "https://i.ibb.co/ynK1mK9/silder2.gif"
+        },
+        {
+          image:
+            "https://i.ibb.co/h2SW9wy/silder3.gif"
+        },
+        {
+          image:
+            "https://i.ibb.co/Wc55vfz/silder4.jpg"
+        },
+        {
+          image:
+           "https://i.ibb.co/VTnDYpt/silder5.gif"
+        },
+        {
+          image:
+           "https://i.ibb.co/M1jTd8M/silder6.jpg"
+        }
+      ];

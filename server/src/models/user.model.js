@@ -3,11 +3,11 @@ const bcrypt = require("bcrypt");
 
 const userSchema = new Schema(
   {
-    first_name: { type: String, required: true },
-    last_name: { type: String, required: true },
-    contact: { type: String, required: true },
-    email: { type: String, required: true },
-    password: { type: String, required: true },
+    first_name: { type: String, required: false },
+    last_name: { type: String, required: false },
+    contact: { type: String, required: false },
+    email: { type: String, required: false },
+    password: { type: String, required: false },
   },
   {
     versionKey: false,
@@ -16,7 +16,7 @@ const userSchema = new Schema(
 );
 
 userSchema.pre("save", function (next) {
-  if (!isModified("password")) return next();
+  if (!this.isModified("password")) return next();
   bcrypt.hash(this.password, 10, (err, hash) => {
     this.password = hash;
     return next();
