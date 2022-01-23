@@ -16,10 +16,11 @@ function TopBrands(data) {
 
     return (
          <div>
-            <Box mx="6%" >
+            <Box mx="6%" my="100px" >
                 <Grid templateColumns="repeat(2, 1fr)" gap={10} h='300px' w="98%">
                     {boxData.map((e) => (
                     <Box
+                        key={e.link}
                         // ratio={16/9}
                         backgroundImage={`url(${e.link})`}
                         // backgroundPosition="fit"
