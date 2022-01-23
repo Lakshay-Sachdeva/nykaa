@@ -1,7 +1,14 @@
+
 li{
     list-style-type: none;
     color: white;
     margin:2px;
+
+body{
+  background-color: #f3f3f3 !important;
+}
+.App {
+  text-align: center;
 }
 .footer1 li{
     color:gray;
