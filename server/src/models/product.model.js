@@ -7,8 +7,8 @@ const productSchema = new Schema(
     color: { type: String, required: true },
     brand: { type: String, required: true },
     image: [{ type: String, required: true }],
-    discount: { type: String, required: true },
-    Skintone: { type: String, required: true },
+    discount: { type: String, required: false },
+    Skintone: { type: String, required: false },
   },
   {
     versionKey: false,
