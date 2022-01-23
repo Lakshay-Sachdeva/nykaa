@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Feature  from "./components/feature";
 function App() {
   return (
-    <div className="App">
-        
-    </div>
-  );
+    <>
+    <Feature />
+    </>
+  )
 }
-
 export default App;
