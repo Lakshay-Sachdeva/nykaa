@@ -2,11 +2,11 @@ const { Schema, model } = require("mongoose");
 
 const productSchema = new Schema(
   {
-    name: { type: String, required: true },
-    price: { type: String, required: true },
-    color: { type: String, required: true },
-    brand: { type: String, required: true },
-    image: [{ type: String, required: true }],
+    name: { type: String, required: false },
+    price: { type: String, required: false},
+    color: { type: String, required: false },
+    brand: { type: String, required: false },
+    image: [{ type: String, required: false }],
     discount: { type: String, required: false },
     Skintone: { type: String, required: false },
   },
